@@ -1,0 +1,19 @@
+{
+  "name": "most-starred-project",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --env-file=.env src/server",
+    "dev": "node --env-file=.env --watch src/server public/js/main"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.13",
+    "express": "^5.1.0",
+    "tailwindcss": "^4.1.13"
+  },
+  "type": "module"
+}
